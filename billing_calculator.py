@@ -49,15 +49,14 @@ tax_amount = round(tax_amount,2)
 grand_total = round(final_total,2)
 
 print("\n-------------------------------------------")
-print(f"Item name      :{item_name}")
-print(f"Quantity       :{qty}")
-print(f"Unit Price     :{unit_price:.2f}")
+print(f"Item name        :{item_name}")
+print(f"Quantity         :{qty}")
+print(f"Unit Price       :{unit_price:.2f}")
 print("-----------------------------------------------")
 print(f"Original Subtotal:{sub_total:.2f} ")
 print(f"Discount Amount  :{discount:.2f}")
 print(f"Tax Amount       :{tax_amount:.2f}")
 print("------------------------------------------------")
 print(f"Grand total      :{grand_total:.2f}")
-    
-    
-     
+
+

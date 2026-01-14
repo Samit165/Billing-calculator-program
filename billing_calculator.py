@@ -1,4 +1,4 @@
-item_name = input("Enter the item Name:").strip()
+item_name = input("Enter the item Name:")
 if not item_name:
     print("Please fill")
     exit()
